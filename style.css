@@ -23,10 +23,37 @@ ul{
 }
 
 /* Estilos de navbar */
-
+.encabezado{
+    display: flex ;
+    justify-content: space-between;
+}
 .navbar-list{
     display: flex;
     gap: 50px;
+    padding: 21px 54px;
     justify-content: center;
     align-items: center
 }
+.log-in{
+    background-image: linear-gradient(90deg, #5BA3EB, #3D78B2);
+    font-weight: bold;
+    padding: 10px 32px;
+    border-radius: 15px;
+    color: #FFFFFF;
+}
+
+/* parte del jumbotron */
+
+.jumbotron h1{
+    font-size: 52px;
+    font-weight: bold;
+    width: 570px;
+}
+.jumbotron{
+    padding: 21px 60px;
+
+
+
+}
+
+/* seccion tarjetas */
