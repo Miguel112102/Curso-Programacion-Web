@@ -103,6 +103,12 @@ ul{
 .juegos{
     background-image: url(/assets/Fondo\ Azul\ Play\ 2do\ jumbo.jpg);
 }
+.juegos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
 .juegos h3{
     text-align: center;
     font-weight: bold;
