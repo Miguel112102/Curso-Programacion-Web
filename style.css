@@ -27,6 +27,10 @@ ul{
     display: flex ;
     justify-content: space-between;
 }
+.encabezado button{
+    width: 218px;
+    height: 44px;
+}
 .navbar-list{
     display: flex;
     gap: 50px;
@@ -54,9 +58,6 @@ ul{
 }
 .jumbotron{
     padding: 21px 60px;
-
-
-
 }
 .Astro-Bot{
     background-image: url(/assets/_div_\ jumbotron.jpg);
@@ -103,7 +104,7 @@ ul{
 .juegos{
     background-image: url(/assets/Fondo\ Azul\ Play\ 2do\ jumbo.jpg);
 }
-.juegos {
+.juegos div{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -115,3 +116,4 @@ ul{
     font-size: 65px;
     color: #FFFFFF;
 }
+/* FOOTER */
