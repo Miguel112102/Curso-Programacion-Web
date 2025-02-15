@@ -103,12 +103,18 @@ ul{
 /* SEGUNDO JUMBOTRON juegos */
 .juegos{
     background-image: url(/assets/Fondo\ Azul\ Play\ 2do\ jumbo.jpg);
+    gap: 14px;
+    padding: 36px 60px;
 }
 .juegos div{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    gap: 40px;
+}
+.texto-juego{
+    gap: 10px;
+    padding: 38px;
 }
 .juegos h3{
     text-align: center;
@@ -117,3 +123,46 @@ ul{
     color: #FFFFFF;
 }
 /* FOOTER */
+.footer-style{
+    display: flex;  
+    gap: 34px;
+    padding: 56px 60px;
+}
+.acercaD h4{
+    font-weight: bold;
+    font-size: 24px;
+}
+.acercaD ul{
+    gap: 16px;
+}
+.productos h4{
+    font-weight: bold;
+    font-size: 24px;
+}
+.productos ul{
+    gap: 16px;
+}
+.recursos h4{
+    font-weight: bold;
+    font-size: 24px;
+}
+.recursos ul{
+    gap: 16px;
+}
+.atencion h4{
+    font-weight: bold;
+    font-size: 24px;
+}
+.atencion ul{
+    gap: 16px;
+}
+.conectar h4{
+    font-weight: bold;
+    font-size: 24px;
+}
+.conectar ul{
+    gap: 16px;
+}
+.conectar div{
+    gap: 20px;
+}
