@@ -104,13 +104,13 @@ ul{
 .juegos{
     background-image: url(/assets/Fondo\ Azul\ Play\ 2do\ jumbo.jpg);
     gap: 14px;
-    padding: 36px 60px;
+    padding: 36px 30px;
 }
 .juegos div{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
 }
 .texto-juego{
     gap: 10px;
