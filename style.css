@@ -1,0 +1,168 @@
+/* seteo de estilos */
+* {
+    /* popiedades de espaciado */
+    padding: unset;
+    margin: unset;
+    outline: unset;    
+    border: unset;
+
+    /* la propiedad magica */
+    box-sizing: border-box;
+
+    font-size: 16px;
+}
+/* el resto del seteo se hace en el body */
+body{
+    color: #1E1E1E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFFFFF;
+}
+
+ul{
+    list-style: none
+}
+
+/* Estilos de navbar */
+.encabezado{
+    display: flex ;
+    justify-content: space-between;
+}
+.encabezado button{
+    width: 218px;
+    height: 44px;
+}
+.navbar-list{
+    display: flex;
+    gap: 50px;
+    padding: 21px 54px;
+    justify-content: center;
+    color: #FFFFFF;
+    align-items: center
+}
+.log-in{
+    background-image: linear-gradient(90deg, #5BA3EB, #3D78B2);
+    font-weight: bold;
+    padding: 10px 32px;
+    border-radius: 15px;
+    color: #FFFFFF;
+}
+
+/* parte del jumbotron */
+
+.jumbotron h1{
+    font-size: 52px;
+    font-weight: bold;
+    width: 570px;
+    height: 378px;
+    color: #FFFFFF;
+}
+.jumbotron{
+    padding: 21px 60px;
+}
+.Astro-Bot{
+    background-image: url(/assets/_div_\ jumbotron.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* seccion tarjetas */
+.Consolas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 14px;
+}
+.Consolas a{
+    flex-basis: 250px;
+}
+.Consolas a img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+.Consolas h3{
+    text-align: center;
+}
+.perifericos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 14px;
+}
+.perifericos a {
+    flex-basis: 250px;
+}
+.perifericos a img {
+    width: 100%;
+    height: 230px;
+}
+.perifericos h3{
+    text-align: center;
+}
+/* SEGUNDO JUMBOTRON juegos */
+.juegos{
+    background-image: url(/assets/Fondo\ Azul\ Play\ 2do\ jumbo.jpg);
+    gap: 14px;
+    padding: 36px 30px;
+}
+.juegos div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.texto-juego{
+    gap: 10px;
+    padding: 38px;
+}
+.juegos h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+/* FOOTER */
+.footer-style{
+    display: flex;  
+    gap: 34px;
+    padding: 56px 60px;
+}
+.acercaD h4{
+    font-weight: bold;
+    font-size: 24px;
+}
+.acercaD ul{
+    gap: 16px;
+}
+.productos h4{
+    font-weight: bold;
+    font-size: 24px;
+}
+.productos ul{
+    gap: 16px;
+}
+.recursos h4{
+    font-weight: bold;
+    font-size: 24px;
+}
+.recursos ul{
+    gap: 16px;
+}
+.atencion h4{
+    font-weight: bold;
+    font-size: 24px;
+}
+.atencion ul{
+    gap: 16px;
+}
+.conectar h4{
+    font-weight: bold;
+    font-size: 24px;
+}
+.conectar ul{
+    gap: 16px;
+}
+.conectar div{
+    gap: 20px;
+}
